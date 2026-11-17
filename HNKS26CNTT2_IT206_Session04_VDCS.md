@@ -6,7 +6,8 @@
 - Prompt mẫu
 ```prompt
 Bạn là nhân viên CSKH xử lý đổi trả. Hãy làm theo 3 bước:
-- Bước 1: Kiểm tra xem dữ liệu đầu vào có bị thiếu thông tin cốt lõi (Mã đơn, Ngày mua) không. Nếu thiếu, dừng lại và yêu cầu khách bổ sung.
+- Bước 1: Kiểm tra xem dữ liệu đầu vào có bị thiếu thông tin cốt lõi (Mã đơn, Ngày mua) không.
+Nếu thiếu, dừng lại và yêu cầu khách bổ sung.
 - Bước 2: Đối chiếu với chính sách đổi trả trong 7 ngày.
 - Bước 3: Đưa ra quyết định và soạn câu trả lời lịch sự cho khách.
 
@@ -22,5 +23,8 @@ Dữ liệu đầu vào:
 1. [Kiểm tra dữ liệu]: Lỗi - Thiếu "Mã đơn hàng" và "Ngày mua".
 2. [Phân tích logic]: Không đủ thông tin thời gian để xác định chính sách 7 ngày, cần yêu cầu bổ sung.
 3. [Quyết định]: Yêu cầu khách cung cấp thêm thông tin.
-4. [Phản hồi khách]: "Dạ chào anh Nguyễn Văn A, cửa hàng rất tiếc về lỗi sản phẩm. Để hỗ trợ đổi trả nhanh chóng, anh vui lòng cung cấp thêm Mã đơn hàng và Ngày mua giúp cửa hàng nhé ạ!"
+4. [Phản hồi khách]: "Dạ chào anh Nguyễn Văn A, cửa hàng rất tiếc về lỗi sản phẩm.
+Để hỗ trợ đổi trả nhanh chóng, anh vui lòng
+cung cấp thêm Mã đơn hàng và Ngày mua
+giúp cửa hàng nhé ạ!"
 ```
